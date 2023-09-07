@@ -1,17 +1,21 @@
-class Carrito{
-    constructor(){
-        this.listaCarrito = []
+class Cart{
+    constructor(id, category, price, description ){
+        this.id = id
+        this.category = category
+        this.price = price
+        this.description = description
+        
     }
 
-    agregar (producto){
-        this.listaProductos.push(productos)
+    agregar (products){
+        this.listProduct.push(products)
     }
 }
 
 class ProductController{
     constructor(){
-        this.listaProductos = []
+        this.listProduct = []
     }
 }
 
-const controladorProductos = new ProductController ()
+const productsController = new ProductController ()
